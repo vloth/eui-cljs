@@ -1,6 +1,8 @@
 (ns eui.services.manipulation
   (:require ["@elastic/eui/lib/services/color/manipulation.js" :as eui]))
 
+(def darken eui/darken)
+
 (def tint eui/tint)
 
 (def shadeOrTint eui/shadeOrTint)

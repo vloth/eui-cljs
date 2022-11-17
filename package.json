@@ -1,16 +1,18 @@
 {
-  "name" : "eui-cljs",
-  "version" : "64.0.0",
-  "description" : "Auto generated wrapper around EUI files",
-  "author" : "Ryan Haywood",
-  "license" : "SEE LICENSE IN LICENSE.txt",
-  "private" : false,
-  "dependencies" : {
-    "@elastic/eui" : "64.0.0",
-    "@elastic/datemath" : "^5.0.3",
-    "classnames" : "^2.2.6",
-    "moment" : "^2.27.0",
-    "prop-types" : "^15.6.0",
-    "typescript" : "4.0.5"
+  "name": "eui-cljs",
+  "version": "64.0.0",
+  "description": "Auto generated wrapper around EUI files",
+  "author": "Ryan Haywood",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "private": false,
+  "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "70.0.2",
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "classnames": "^2.2.6",
+    "moment": "^2.27.0",
+    "prop-types": "^15.6.0",
+    "typescript": "4.0.5"
   }
 }

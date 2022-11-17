@@ -3,6 +3,8 @@
 
 (def EuiThemeContext eui/EuiThemeContext)
 
+(def defaultComputedTheme eui/defaultComputedTheme)
+
 (def EuiColorModeContext eui/EuiColorModeContext)
 
 (def EuiSystemContext eui/EuiSystemContext)

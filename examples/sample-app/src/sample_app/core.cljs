@@ -4,7 +4,7 @@
             [eui.form-row :refer [EuiFormRow]]
             [eui.horizontal-rule :refer [EuiHorizontalRule]]
             [eui.icon :refer [appendIconComponentCache]]
-            [eui.icon-logo-elastic :refer [logoElastic]]
+            [eui.icon-app-management :refer [appManagement]]
             [eui.page :refer [EuiPage]]
             [eui.page-body :refer [EuiPageBody]]
             [eui.page-section :refer [EuiPageSection]]
@@ -33,7 +33,7 @@
      [:> EuiPage {:paddingSize "none"}
       [:> EuiPageBody {:restrictWidth true}
        [:> EuiPageHeader {;; for this to work we need to register the icon with EUI down below
-                          :iconType "logoElastic"
+                          :iconType "appManagement"
                           :pageTitle page-title
                           :rightSideItems [(r/as-element ;; When passing components to EUI through props (not children)
                                             ;; use r/as-element to convert the Clojurescript to callable React
@@ -54,7 +54,7 @@
   ;; Work around needed because the Closure compiler does not
   ;; support dynamic importing, so we need to provide a lookup
   ;; map EUI can use to find logos internally
-  (appendIconComponentCache #js {"logoElastic" logoElastic})
+  (appendIconComponentCache #js {"logoElastic" appManagement})
 
   ;; Appends the stylesheet to document along with the amsterdam Google font
   (theme/init! (:theme @app-state))
